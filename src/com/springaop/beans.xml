@@ -9,10 +9,10 @@
 
 
     <!--1 创建目标类-->
-    <bean id="userServiceId" class="com.springaop.UserServiceImpl" ></bean>
+    <bean id="userServiceId" class="com.springaop.aop01.service.UserServiceImpl" ></bean>
 
     <!--2 创建切面类-->
-    <bean id="myAspectId"  class="com.springaop.MyAspect"></bean>
+    <bean id="myAspectId"  class="com.springaop.aop01.aspect.MyAspect"></bean>
 
     <!--3 aop编程  基于XML
         * 导入命名空间

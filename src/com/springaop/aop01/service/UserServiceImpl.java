@@ -1,11 +1,10 @@
-package com.springaop;
-
-import com.springaop.UserService;
+package com.springaop.aop01.service;
 
 /**
  * Created by wendyhe on 2018/10/8.
  */
 public class UserServiceImpl implements UserService {
+
     @Override
     public void addUser() {
         System.out.println("addUser");

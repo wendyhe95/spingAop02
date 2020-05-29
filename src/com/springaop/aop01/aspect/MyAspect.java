@@ -1,4 +1,4 @@
-package com.springaop;
+package com.springaop.aop01.aspect;
 
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
